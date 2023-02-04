@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: black;
+}
+input.form-control.mr-sm-2
+{
+    border-radius: 15px;
+}
+
+
+.card.mx-auto
+{
+    background-color: lightblue;
+}
+
+.monster:nth-child(odd)
+{
+    background-color: #ffff;
+    text-align: center;
+}
+.monster:nth-child(even)
+{
+    color: white;
+    text-align: center;
+}
+.name
+{
+    font-size: 20px;
+    padding: 15px 0px 15px 0px;
+    margin: 0px;
+}
+.email
+{
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+.p-5.not-found 
+{
+    background-color: #ffff;
+}
+.p-5.not-found span
+{
+  font-size: 80px;
+}
+.p-5.not-found h1
+{
+    text-align: center;
+}
